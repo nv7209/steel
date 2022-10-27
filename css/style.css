@@ -1,0 +1,414 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom  */
+
+body{
+    overflow-x: hidden;
+}
+.header{
+	position: fixed;
+    top: 0;
+    right: 0;
+	width: 100vw;
+    padding: 10px 10px;
+    display: flex;
+	margin-bottom: 5px;
+    justify-content: space-between;
+	
+}
+.head_image{
+	height: 130px;
+	width: auto;
+	margin-left: 10px;
+}
+
+.main-logo{
+	
+
+    flex: auto;
+    background-color: #2E313F;
+}
+.topnav input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }
+
+
+  /* custom */
+
+
+
+.hr{
+    color: inherit;
+    border: 0;
+    border-top: 3px solid;
+	color: white;
+}
+
+span{
+	font-size: 25px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.detail{
+	display: flex;
+    align-items: baseline;
+}
+
+.search{
+	margin-left: 5px;
+}
+
+input{
+	border: none;
+	outline: none;
+	margin-left: 10px !important;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.down{
+	vertical-align: top;
+	width: 15px;
+	color: white;
+	margin-right: 5px;
+}
+
+p{
+	color: white;
+}
+
+.department{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.department_box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+}
+/* main */
+
+
+.box{
+   height: 40px;
+   
+   background-color: blue;   
+   margin: 5px 5px;
+}
+.d-block{
+	width:auto;
+	height: 400px;
+}
+
+.contact{
+	background-color: black;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	margin: 5px 100px;
+	padding: 5px;
+}
+.ip{
+	
+	color: black;
+	margin: 5px ;
+	padding: 5px;
+	font-size: 20px;
+
+}
+.box1{
+	display: flex;
+	padding: 5px;
+}
+.roop{
+	text-align: center;
+	background-color: #f7941d;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+}
+.img1{
+	height: 60px;
+	width: 40px;
+	margin-top: 8px;
+	padding-top: 5px;
+}
+.online_attend{
+	text-align: center;
+	background-color: #00a8e9;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+}
+.daily_attend{
+	text-align: center;
+	background-color: #357d2c;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+}
+.hrd_mag{
+	text-align: center;
+	background-color: #254cc1;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	line-height: 1.3em;
+}
+.online_comp{
+	text-align: center;
+	background-color: #b11430;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+.kavach{
+	text-align: center;
+	background-color: #790000;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+.sap{
+	text-align: center;
+	background-color:#254cc1;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+
+.self{
+	text-align: center;
+	background-color: #357d2c;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+.dept_upload{
+	text-align: center;
+	background-color: #00a8e9;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+.download{
+	text-align: center;
+	background-color: #f7941d;
+	color: white;
+	margin: 10px;
+	border-radius: 10px;
+	
+}
+.imp1{
+	display: flexbox;
+	background-color: #f7941d;
+	margin: 10px;
+
+}
+/* .ten_row:hover {
+	
+		cursor: pointer;
+	  
+} */
+body{   
+    background: #eee;  
+}  
+#frm{  
+	justify-content: center;
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 200px auto;  
+    background: rgb(5, 138, 190);  
+    padding: 60px;  
+}  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.tc{
+	text-align: center;
+}
+
+.fc{
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+}
+.card_box{
+	
+	width: calc(100% / 10);
+	height: 180px;
+	margin: 5px;
+ }
+.bounce:hover{
+	transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.p-10{
+	padding: 10px 0px;
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	display: flex;
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(42, 11, 155);}
+
+  .tab button.active {
+    background-color: rgb(20, 148, 142);
+    color: #155f39;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 33.333%;
+    color:#fff;
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.depart {
+    position: relative;
+    min-height: 100%;
+    top: 0px;
+    overflow-x: hidden;
+}
+
+.showlog {
+ text-align: center;
+ margin: auto;
+ padding: 5px 5px;
+ display: flex;
+}
+.log_box{
+	display:none;
+	background-color: #2E313F;
+	margin-top: 1px;
+	margin-right: 0;
+	padding: 15px;
+	width: 150px;
+	align-items: center;
+	justify-items: center;
+	position: absolute;
+
+}
+/* .log_box:hover{
+	transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
